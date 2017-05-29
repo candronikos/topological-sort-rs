@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["topological_sort"] = ["impl&lt;T:&nbsp;<a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.PartialOrd.html\" title=\"trait core::cmp::PartialOrd\">PartialOrd</a> + <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html\" title=\"trait core::cmp::Eq\">Eq</a> + <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html\" title=\"trait core::hash::Hash\">Hash</a> + <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/trait.FromIterator.html\" title=\"trait core::iter::traits::FromIterator\">FromIterator</a>&lt;T&gt; for <a class=\"struct\" href=\"topological_sort/struct.TopologicalSort.html\" title=\"struct topological_sort::TopologicalSort\">TopologicalSort</a>&lt;T&gt;","impl&lt;T:&nbsp;<a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/cmp/trait.Eq.html\" title=\"trait core::cmp::Eq\">Eq</a> + <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html\" title=\"trait core::hash::Hash\">Hash</a> + <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/iter/traits/trait.FromIterator.html\" title=\"trait core::iter::traits::FromIterator\">FromIterator</a>&lt;<a class=\"struct\" href=\"topological_sort/struct.DependencyLink.html\" title=\"struct topological_sort::DependencyLink\">DependencyLink</a>&lt;T&gt;&gt; for <a class=\"struct\" href=\"topological_sort/struct.TopologicalSort.html\" title=\"struct topological_sort::TopologicalSort\">TopologicalSort</a>&lt;T&gt;",];
+
+            if (window.register_implementors) {
+                window.register_implementors(implementors);
+            } else {
+                window.pending_implementors = implementors;
+            }
+        
+})()
